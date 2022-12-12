@@ -57,7 +57,20 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.xl-title {
+  font-size: 38px;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 10px auto 10px 100px;
+  color: #00d9f9;
+  text-shadow: 5px -3px 5px black;
+  background-color: #bc0000;
 }
 .card {
   width: 300px;
@@ -136,5 +149,10 @@ body {
   }
   .m-content {
     font-size: 10px;
+  }
+  .xl-title {
+    font-size: 24px;
+    width: 150px;
+    margin: 10px auto;
   }
 }
