@@ -124,11 +124,11 @@ body {
     height: 150px;
   }
   .card {
-    width: 150px;
+    width: 48%;
     height: 200px;
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
     box-sizing: border-box;
   }
   .card img {
